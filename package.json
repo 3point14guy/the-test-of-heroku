@@ -1,0 +1,5 @@
+{
+  "name": "push2prod",
+  "private": true,
+  "dependencies": {}
+}
