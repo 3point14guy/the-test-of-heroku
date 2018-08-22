@@ -1,3 +1,4 @@
+
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
@@ -44,7 +45,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'pg'
+  gem 'pg', '~> 0.21'
   gem 'rails_12factor'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
